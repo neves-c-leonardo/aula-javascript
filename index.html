@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula JavaScript</title>
+    </head>
+    <body>
+        <h1>Olá Mundo!</h1>
+
+        <script>
+            let saldo = 50
+            const custoRefrigerante = 8
+            const custoPaes = 4
+            const custoMortadela = 39.90
+
+            let saldoFinal = 50 - ((custoRefrigerante * 2) + 
+                custoPaes + ((300/1000) * custoMortadela))
+
+            console.log("José foi ao mercado com R$ " + saldo + 
+                " e no final de sua compra saiu com R$ " + saldoFinal)
+
+            let numeroX = 2
+            if(numeroX % 2 == 0) {
+                alert("É par!");
+            } else if(numeroX % 2 != 0) {
+                alert("É impar!");
+            } else {
+                alert("Digitou abobrinha ai")
+            }
+        </script>
+    </body>
+</html>
