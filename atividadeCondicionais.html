@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estruturas Condicionais</title>
+    </head>
+    <body>
+        <h1>Estruturas Condicionais</h1>
+
+        <script>
+
+            let esta_chovendo = prompt("Está chovendo? (Sim/Não)").toLowerCase() === "sim";
+            let tem_guarda_chuva = prompt("Você tem guarda chuva? (Sim/Não)").toLowerCase() === "sim";
+
+            if(esta_chovendo && tem_guarda_chuva) {
+                alert("Está chovendo, pegue seu guarda chuva!");
+            } else {
+                if(esta_chovendo) {
+                    alert("Está chovendo, mas você não tem um guarda-chuva. Melhor ficar em casa!");
+                } else {
+                    alert("Não está chovendo, pode sair sem preocupações");
+                } 
+            }
+            
+        </script>
+    </body>
+</html>

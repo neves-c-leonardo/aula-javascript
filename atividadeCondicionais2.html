@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estruturas Condicionais</title>
+    </head>
+    <body>
+        <h1>Estruturas Condicionais</h1>
+
+        <script>
+
+            let esta_chovendo = prompt("Está chovendo? (Sim/Não)").toLowerCase() === "sim";
+            let esta_sol = prompt("Está sol? (Sim/Não)").toLowerCase() === "sim";
+            let esta_frio = prompt("Está frio? (Sim/Não)").toLowerCase() === "sim";
+
+            if(esta_chovendo) {
+                alert("Está chovendo, user um guarda-chuva e roupas impermeáveis!!");
+            } else if(esta_sol) {
+                alert("Está ensolarado, use roupas leves e ptrotetor solar!")
+            } else if(esta_frio) {
+                alert("Está frio, vista um casaco e um cachecol!")
+            } else {
+                alert("O tempo está agradável, uma camiseta e calças são uma boa escolha!")
+            }
+
+            let mensagem = 3 > 5 ? "3 é maior que 5!" : "3 é menor quer 5";
+            console.log(mensagem);
+            
+        </script>
+    </body>
+</html>
