@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+</head>
+<body>
+    <h1>Atividade 5</h1>
+
+    <script>
+        let data = new Date();
+        let horaAtual = data.getHours();
+
+        if(horaAtual >= 6 && horaAtual <= 12 ) {
+            alert("Bom dia!");
+        } else if(horaAtual > 12  && horaAtual <= 18 ) {
+            alert("Boa tarde!");
+        } else {
+            alert("Boa noite!");
+        }
+
+        alert(data.getHours() + " : " + data.getMinutes());
+
+    </script>
+</body>
+</html>
