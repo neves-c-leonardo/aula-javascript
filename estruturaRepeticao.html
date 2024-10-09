@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let i = 1; i <= 10; i++){
+            console.log(i);
+        }
+
+        let  nome = "Leonardo";
+        let idade = 25;
+
+        alert(`Olá, eu me chamo ${nome} e tenho ${idade} anos`);
+
+        let deveContinuar = false;
+        while(deveContinuar) {
+            let numero = prompt("Digite 0 para sair!");
+            if(numero == 0) {
+                deveContinuar = false;
+            }
+        }
+
+
+
+        let deveContinuar2 = false;
+        do {
+            let numero = prompt("Digite 0 para sair!");
+            if(numero == 0) {
+                deveContinuar2 = false;
+            }  else {
+                deveContinuar2 = true;
+            }
+        } while(deveContinuar2);
+
+
+        let i = 10;
+        while(i >= 1) {
+            alert(`Número: ${i}`);
+            i--;
+        }
+
+    </script>
+</body>
+</html>
