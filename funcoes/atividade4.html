@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+</head>
+<body>
+    
+    <script>
+        let a = parseInt(prompt("Digite um número para verificar se é par ou impar: "));
+
+        const verificarParImpar = (numeroA) => {
+            let tipoNumero = "";
+            if(numeroA % 2 === 0) {
+                tipoNumero = "Par";
+            } else {
+                tipoNumero = "Impar";
+            }
+
+            alert(`${numeroA} é ${tipoNumero}`);
+        }
+       
+        verificarParImpar(a);
+
+        pessoas = ["Leonardo", "Brenda", "Catarina"];
+
+        for(pessoa of pessoas){
+            alert(pessoa);
+        }
+        
+    </script>
+</body>
+</html>
