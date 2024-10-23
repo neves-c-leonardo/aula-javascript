@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+package.json
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Outros
+*.log
+*.env

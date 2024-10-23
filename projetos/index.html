@@ -12,19 +12,31 @@
         <div class="container">
             <div class="cabecalho">
                 <h1 class="titulo">Calculadora</h1>
-                <input type="number" id="num1" placeholder="Número 1">
-                <input type="number" id="num2" placeholder="Número 2">
+                <input type="text" id="campoCalculo" disabled>
             </div>
-            <div class="operadores">
-                <button class="operador" onclick="calcular('+')">+</button>
-                <button class="operador" onclick="calcular('-')">-</button>
-                <button class="operador" onclick="calcular('x')">x</button>
-                <button class="operador" onclick="calcular('/')">/</button>
-                <button class="operador" onclick="calcular('potencia')">X<sup>y</sup></button>
-                <button class="operador" onclick="calcular('c')">C</button>
-            </div>                                   
 
-            <h2>Resultado: <span id="resultado">0</span></h2>
+            <div class="operadores">
+                <button onclick="digitar('+')">+</button>
+                <button onclick="digitar('-')">-</button>
+                <button onclick="digitar('*')">*</button>
+                <button onclick="digitar('/')">/</button>
+                <button onclick="digitar('**')">X<sup>y</sup></button>
+            </div>    
+
+            <div class="container-digitos">
+                <button onclick="digitar(1)">1</button>
+                <button onclick="digitar(2)">2</button>
+                <button onclick="digitar(3)">3</button>
+                <button onclick="digitar(4)">4</button>
+                <button onclick="digitar(5)">5</button>
+                <button onclick="digitar(6)">6</button>
+                <button onclick="digitar(7)">7</button>
+                <button onclick="digitar(8)">8</button>
+                <button onclick="digitar(9)">9</button>
+                <button onclick="limpar()">C</button>
+                <button onclick="digitar(0)">0</button>
+                <button onclick="calcular()">=</button>
+            </div>                                    
         </div>
 
         <script src="js/script.js"></script>
